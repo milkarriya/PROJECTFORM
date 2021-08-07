@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/styleheet.css">
+        <title>Form</title>
+    </head>
+    <body>
+        <h1>การแสดง form แบบต่าง ๆ</h1>
+        <form>
+            <fieldset>
+                <legend>ข้อมูลนักศึกษา</legend>
+                <table>
+                    <tr>
+                        <td>
+                            <label for="id">รหัสนักศึกษา</label>
+                        </td>
+                        <td>
+                            <input type="text" name="id" id="id" value=""
+                                placeholder="รหัสนักศึกษา" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="gender">เพศ</label>
+                        </td>
+                        <td>
+                            <input type="radio" name="gender" id="gender"
+                                value="" checked/> ชาย
+                            <input type="radio" name="gender" id="gender"
+                                value="" /> หญิง
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="fname">ชื่อ</label>
+                        </td>
+                        <td>
+                            <input type="text" name="fname" id="fname" value=""
+                                placeholder="ชื่อ" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="lname">นามสกุล</label>
+                        </td>
+                        <td>
+                            <input type="text" name="lname" id="lname" value=""
+                                placeholder="นามสกุล" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="email">อีเมล์</label>
+
+                        </td>
+
+                        <td>
+                            <input type="email" name="email" id="email" value=""
+                                placeholder="email" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="dob">วันเดือนปีเกิด</label>
+                        </td>
+                        <td>
+                            <input type="date" name="dob" id="dob" value="" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label>สิ่งที่สนใจ</label></td>
+                        <td><input type="checkbox" name="cb" value="" /> ดูหนัง
+                            ฟังเพลง
+                            <input type="checkbox" name="cb" value="" checked />
+                            เล่นอินเทอร์เน็ต
+                            <input type="checkbox" name="cb" value="" checked />
+                            เล่นกีฬา
+                            <input type="checkbox" name="cb" value="" />
+                            เลี้ยงสัตว์
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td></td>
+                        <td>
+                            <input type="submit" class="submit" name="submit"
+                                id="submit" value="ส่งข้อมูล" />
+                            <input type="reset" name="reset" id="reset"
+                                value="ยกเลิก" />
+                        </td>
+                    </tr>
+                </table>
+            </fieldset>
+
+        </form>
+    </body>
+</html>
