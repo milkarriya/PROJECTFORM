@@ -43,3 +43,71 @@ input[type="reset"] {
     margin: 4px 2px;
     cursor: pointer;
 }
+h1 {
+    color: rgb(23, 202, 62);
+    font-size: 40px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    padding-top: 110px;
+}
+div {
+    border: 1px solid rgb(245, 244, 244);
+    color: rgb(241, 237, 237);
+    font-size: 40px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-top: 80px;
+    margin-bottom: 30px;
+    margin-left: 500px;
+    margin-right: 500px;
+}
+table, label, td {
+    color: white;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+    width: 14px;
+}
+input[type="email"] {
+    background-color: rgba(14, 1, 1, 0.329);
+    color: rgb(12, 1, 1);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border: none;
+    padding: 15px 32px;
+    text-align: left;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+input[type="password"] {
+    background-color: rgba(14, 1, 1, 0.329);
+    color: rgb(10, 1, 1);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border: none;
+    padding: 15px 32px;
+    text-align: left;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+input[type="submit"] {
+    background-color: rgb(51, 197, 51);
+    color: rgb(32, 43, 202);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border: none;
+    padding: 15px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
